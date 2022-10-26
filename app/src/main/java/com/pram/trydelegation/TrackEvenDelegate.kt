@@ -10,6 +10,7 @@ interface TrackEvenDelegate {
 }
 
 class TrackEventDelegateImpl: TrackEvenDelegate, DefaultLifecycleObserver {
+
     override fun registerTrackEvent(lifecycle: Lifecycle) {
         lifecycle.addObserver(this)
     }
