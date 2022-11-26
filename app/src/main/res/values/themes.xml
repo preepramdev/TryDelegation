@@ -13,4 +13,8 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ProgressRed" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#F00</item>
+    </style>
 </resources>
